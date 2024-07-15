@@ -1,0 +1,58 @@
+.project{
+    padding: 110px 85px;
+}
+.project .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.info h3{
+    font-size: 35px;
+}
+.project .header button{
+    margin-left: 1rem;
+    padding: 0.8rem 2rem;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 6px 6px #666;
+}
+.project .projects-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.project .projects-items .item{
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+.projects-items .item img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+}
+.item .project_info{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px 32px 42px;
+    box-shadow: 6px 6px #666;
+}
+.item .project_info h4{
+    font-size: 20px;
+}
+.item .project_info p{
+    font-size: 13px;
+    color: #666;
+}
